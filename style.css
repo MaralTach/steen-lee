@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(50, 48, 48);
+  border-radius: 20px;
+}
+
+.heading {
+  font-family: "Lobster", cursive;
+}
+
+#title {
+  text-align: center;
+  font-size: 90px;
+}
+
+#span1 {
+  color: red;
+}
+#img-div {
+  text-align: center;
+}
+
+#image {
+  width: 500px;
+  border-radius: 40px;
+  box-shadow: 2px 5px 23px 18px rgba(0, 0, 0, 0.75);
+}
+
+#info {
+  width: 80%;
+  margin: 50px auto;
+  text-align: justify;
+  font-size: 24px;
+  color: white;
+}
+
+#marvel {
+  color: red;
+  /* text-align: center; */
+  margin-left: 10%;
+  font-size: 58px;
+}
+ul {
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+li {
+  font-size: 24px;
+  line-height: 50px;
+}
+#footer {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 15px;
+  box-shadow: 14px 10px 8px 5px rgba(0, 0, 0, 0.75);
+  background-color: rgb(126, 155, 119);
+  padding: 30px;
+  font-size: 24px;
+}
+
+#link {
+  text-decoration: none;
+  color: white;
+  border: 2px solid orange;
+  padding: 15px;
+  background-color: rgb(29, 75, 19);
+  border-radius: 10px;
+  font-family: "Lobster", cursive;
+  font-size: 29px;
+}
+#link:hover {
+  color: red;
+  background-color: gray;
+}
