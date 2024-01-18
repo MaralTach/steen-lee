@@ -8,10 +8,12 @@ body {
   margin: auto;
   background-color: rgb(50, 48, 48);
   border-radius: 20px;
+  
 }
 
 .heading {
   font-family: "Lobster", cursive;
+
 }
 
 #title {
@@ -19,9 +21,28 @@ body {
   font-size: 90px;
 }
 
+
 #span1 {
   color: red;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
 }
+#span1::after{
+    content: '';
+    width: 80px;
+    height: 100px;
+    background: linear-gradient(hsl(344, 93%, 44%),#fff);
+    position: absolute;
+    top: 5px;
+    margin-left: -35px;
+    z-index: -1;
+    transform: rotate(18deg);
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  
+
 #img-div {
   text-align: center;
 }
@@ -29,7 +50,7 @@ body {
 #image {
   width: 500px;
   border-radius: 40px;
-  box-shadow: 2px 5px 23px 18px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 5px 23px 18px rgba(178, 38, 38, 0.75);
 }
 
 #info {
@@ -42,9 +63,26 @@ body {
 
 #marvel {
   color: red;
-  /* text-align: center; */
+  text-align: center;
   margin-left: 10%;
   font-size: 58px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+#marvel::after {
+  content: '';
+  width: 70px;
+  height: 95px;
+  background: linear-gradient(#e70b45,#fff);
+  position: absolute;
+  top: -30px;
+  margin-left: -20px;
+  z-index: -1;
+  transform: rotate(10deg);
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 ul {
   width: 80%;
@@ -61,23 +99,26 @@ li {
   width: 60%;
   margin: auto;
   border: 1px solid;
-  border-radius: 15px;
-  box-shadow: 14px 10px 8px 5px rgba(0, 0, 0, 0.75);
-  background-color: rgb(126, 155, 119);
+  border-radius: 55px;
+  box-shadow: 20px 10px 8px 5px rgba(0, 0, 0, 0.75);
+  background-color: rgb(204, 195, 154);
   padding: 30px;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 #link {
   text-decoration: none;
-  color: white;
-  border: 2px solid orange;
+  color: rgb(33, 19, 19);
+  border: 2px solid rgb(75, 20, 75);
   padding: 15px;
-  background-color: rgb(29, 75, 19);
-  border-radius: 10px;
+  background-color: linear-gradient(hsl(192, 91%, 47%));
+  border-radius: 55px;
   font-family: "Lobster", cursive;
   font-size: 29px;
+  margin-left: 40px;
 }
+
+
 #link:hover {
   color: red;
   background-color: gray;
